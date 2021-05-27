@@ -1,5 +1,7 @@
 # Technische Aspekte
 
+![Drupal Flow](https://www.drupal.org/files/drupal_flow_0.gif)
+
 ## Standards
 
 * OOP

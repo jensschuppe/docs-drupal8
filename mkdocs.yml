@@ -1,8 +1,12 @@
 site_name: Drupal 8
 nav:
-  -   Versionen: index.md
-  -   Benutzeroberfläche: ui.md
-  -   Technische Aspekte: technical.md
+  - Einführung:
+    - Versionen: introduction/index.md
+    - Benutzeroberfläche: introduction/ui.md
+    - Technische Aspekte: introduction/technical.md
+  - Site Building:
+    - Entities: site-building/entities.md
+    - Views: site-building/views.md
 
 theme:
   name: material
