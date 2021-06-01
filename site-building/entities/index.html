@@ -36,7 +36,7 @@
     
     
       
-        <title>Entities - Drupal 8</title>
+        <title>Entitäten (Entities) - Drupal 8</title>
       
     
     
@@ -71,7 +71,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../#entity-categories" tabindex="1" class="md-skip">
+      <a href="../../#entitats-kategorien" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -97,7 +97,7 @@
                 Drupal 8
               </span>
               <span class="md-header-nav__topic">
-                Entities
+                Entitäten (Entities)
               </span>
             
           
@@ -198,6 +198,25 @@
           
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+    
+    <label class="md-nav__link" for="nav-1-2">
+      Unterschiede Drupal 7/8
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-2">
+        Unterschiede Drupal 7/8
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href="../../introduction/ui/" title="Benutzeroberfläche" class="md-nav__link">
       Benutzeroberfläche
@@ -221,6 +240,11 @@
     </nav>
   </li>
 
+        
+      </ul>
+    </nav>
+  </li>
+
     
       
       
@@ -234,14 +258,38 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
-      Site Building
+      Website-Aufbau (Site Building)
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        Site Building
+        Website-Aufbau (Site Building)
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../users/" title="Benutzer (Users)" class="md-nav__link">
+      Benutzer (Users)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../configuration/" title="Konfiguration" class="md-nav__link">
+      Konfiguration
+    </a>
+  </li>
+
         
           
           
@@ -256,11 +304,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Entities
+        Entitäten (Entities)
       </label>
     
-    <a href="./" title="Entities" class="md-nav__link md-nav__link--active">
-      Entities
+    <a href="./" title="Entitäten (Entities)" class="md-nav__link md-nav__link--active">
+      Entitäten (Entities)
     </a>
     
       
@@ -272,8 +320,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#entity-categories" title="Entity "Categories"" class="md-nav__link">
-    Entity "Categories"
+  <a href="#entitats-kategorien" title="Entitäts-Kategorien" class="md-nav__link">
+    Entitäts-Kategorien
   </a>
   
     <nav class="md-nav">
@@ -397,8 +445,32 @@
 
 
   <li class="md-nav__item">
-    <a href="../views/" title="Views" class="md-nav__link">
-      Views
+    <a href="../blocks/" title="Blöcke (Blocks)" class="md-nav__link">
+      Blöcke (Blocks)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../views/" title="Ansichten (Views)" class="md-nav__link">
+      Ansichten (Views)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../themes/" title="Themes" class="md-nav__link">
+      Themes
     </a>
   </li>
 
@@ -427,8 +499,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#entity-categories" title="Entity "Categories"" class="md-nav__link">
-    Entity "Categories"
+  <a href="#entitats-kategorien" title="Entitäts-Kategorien" class="md-nav__link">
+    Entitäts-Kategorien
   </a>
   
     <nav class="md-nav">
@@ -552,68 +624,70 @@
               
                 
                 
-                  <h1>Entities</h1>
+                  <h1>Entitäten (Entities)</h1>
                 
-                <h2 id="entity-categories">Entity "Categories"<a class="headerlink" href="#entity-categories" title="Permanent link">&para;</a></h2>
+                <h2 id="entitats-kategorien">Entitäts-Kategorien<a class="headerlink" href="#entitats-kategorien" title="Permanent link">&para;</a></h2>
 <h3 id="configuration-entities">Configuration Entities<a class="headerlink" href="#configuration-entities" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Store configuration</li>
+<li>Speichern Konfiguration</li>
 </ul>
-<p>e.g. Setting, View, Webform, Entity Type</p>
+<p>z.B. <em>Setting</em>, <em>View</em>, <em>Webform</em>, <em>Entity Type</em></p>
 <h3 id="content-entities">Content Entities<a class="headerlink" href="#content-entities" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Store content</li>
+<li>Speichern Inhalte</li>
 </ul>
-<p>e.g. Node, User, Taxonomy Term</p>
+<p>e.g. <em>Node</em>, <em>User</em>, <em>Taxonomy Term</em>, <em>Custom Block</em></p>
 <h2 id="entity-types">Entity types<a class="headerlink" href="#entity-types" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Define types of content</li>
+<li>Definieren Typen von Inhalten</li>
 </ul>
-<p>e.g. Node, User, Webform</p>
+<p>e.g. <em>Node</em>, <em>User</em>, <em>File</em>, <em>Media Item</em></p>
 <h2 id="bundles">Bundles<a class="headerlink" href="#bundles" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Define "sub types" of entity types</li>
-<li>Some entities do not/have only one bundle (e.g. User)</li>
+<li>Definieren Untertypen von Inhalts-Entitätstypen</li>
+<li>Manche Entitätstypen haben keins (bzw. nur ein) Bundle (z.B. <em>User</em>)</li>
 </ul>
-<p>e.g. Content Types</p>
+<p>z.B. <em>Content Types</em>, <em>Taxonomy Vocabularies</em>, <em>Block Types</em></p>
 <h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Store basic entity information per entity type</li>
+<li>Speichern grundlegende Entitätsinformationen/-einstellungen pro Entitätstyp</li>
 </ul>
-<p>e.g. ID, Title, Author</p>
+<p>z.B. <em>ID</em>, <em>Title</em>, <em>Author</em>, <em>Language</em></p>
 <h2 id="fields">Fields<a class="headerlink" href="#fields" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Store customizable entity information per bundle</li>
+<li>Speichern benutzerdefinierte Entitätsinformationen pro Bundle</li>
 </ul>
 <h3 id="field-types">Field Types<a class="headerlink" href="#field-types" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Define types of data fields can store</li>
+<li>Definieren Typen von Daten, die Felder speichern können</li>
+<li>Wiederverwendbar an jeder Entität eines "fieldable" Entitätstyps</li>
 </ul>
-<p>e.g. Text, Long Text, Image, Media, Entity Reference</p>
+<p>z.B. <em>Text</em>, <em>Long Text</em>, <em>Image</em>, <em>Media</em>, <em>Entity Reference</em></p>
 <h3 id="field-widgets">Field Widgets<a class="headerlink" href="#field-widgets" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Define how field values are being entered</li>
+<li>Definieren, wie Feldwerte in der Benutzeroberfläche eingegeben werden können</li>
 </ul>
-<p>e.g. Textfield, Media Selector, Autocomplete</p>
+<p>z.B. <em>Textfield</em>, <em>Media Selector</em>, <em>Autocomplete</em></p>
 <h3 id="field-formatters">Field Formatters<a class="headerlink" href="#field-formatters" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Define how field values are being displayed</li>
+<li>Definieren, wie Feldwerte dargestellt werden können</li>
 </ul>
-<p>e.g. Formatted Text, Image, Gallery, Entity Preview</p>
+<p>z.B. <em>Formatted Text</em>, <em>Image</em>, <em>Gallery</em>, <em>Entity Preview</em></p>
 <h2 id="display-modes">Display Modes<a class="headerlink" href="#display-modes" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Define how fields and properties are being displayed</li>
+<li>Definieren, wie Entitäten in verschiedenen Modi dargestellt werden können</li>
 </ul>
 <h3 id="form-modes">Form Modes<a class="headerlink" href="#form-modes" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Define sets of field widgets</li>
+<li>Definieren Kombinationen von Feld-Widgets, d.h. Formulartypen für das
+  Erstellen/Bearbeiten von Entitäten</li>
 </ul>
-<p>e.g. Edit Form, Create Form</p>
+<p>z.B. <em>Edit Form</em>, <em>Create Form</em></p>
 <h3 id="view-modes">View Modes<a class="headerlink" href="#view-modes" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Define sets of field formatters</li>
+<li>Definieren Kombinationen von Feld-Formatierern</li>
 </ul>
-<p>e.g. Full, Teaser, RSS</p>
+<p>z.B. <em>Full</em>, <em>Teaser</em>, <em>RSS</em></p>
                 
                   
                 
@@ -634,7 +708,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../introduction/technical/" title="Technische Aspekte" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../configuration/" title="Konfiguration" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -643,19 +717,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Technische Aspekte
+                Konfiguration
               </span>
             </div>
           </a>
         
         
-          <a href="../views/" title="Views" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../blocks/" title="Blöcke (Blocks)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Views
+                Blöcke (Blocks)
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
