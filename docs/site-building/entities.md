@@ -1,70 +1,72 @@
-## Entity "Categories"
+## Entitäts-Kategorien
 
 ### Configuration Entities
 
-- Store configuration
+- Speichern Konfiguration
 
-e.g. Setting, View, Webform, Entity Type
+z.B. _Setting_, _View_, _Webform_, _Entity Type_
 
 ### Content Entities
 
-- Store content
+- Speichern Inhalte
 
-e.g. Node, User, Taxonomy Term
+e.g. _Node_, _User_, _Taxonomy Term_, _Custom Block_
 
 ## Entity types
 
-- Define types of content
+- Definieren Typen von Inhalten
 
-e.g. Node, User, Webform
+e.g. _Node_, _User_, _File_, _Media Item_
 
 ## Bundles
 
-- Define "sub types" of entity types
-- Some entities do not/have only one bundle (e.g. User)
+- Definieren Untertypen von Inhalts-Entitätstypen
+- Manche Entitätstypen haben keins (bzw. nur ein) Bundle (z.B. _User_)
 
-e.g. Content Types
+z.B. _Content Types_, _Taxonomy Vocabularies_, _Block Types_
 
 ## Properties
 
-- Store basic entity information per entity type
+- Speichern grundlegende Entitätsinformationen/-einstellungen pro Entitätstyp
 
-e.g. ID, Title, Author
+z.B. _ID_, _Title_, _Author_, _Language_
 
 ## Fields
 
-- Store customizable entity information per bundle
+- Speichern benutzerdefinierte Entitätsinformationen pro Bundle
 
 ### Field Types
 
-- Define types of data fields can store
+- Definieren Typen von Daten, die Felder speichern können
+- Wiederverwendbar an jeder Entität eines "fieldable" Entitätstyps
 
-e.g. Text, Long Text, Image, Media, Entity Reference
+z.B. _Text_, _Long Text_, _Image_, _Media_, _Entity Reference_
 
 ### Field Widgets
 
-- Define how field values are being entered
+- Definieren, wie Feldwerte in der Benutzeroberfläche eingegeben werden können
 
-e.g. Textfield, Media Selector, Autocomplete
+z.B. _Textfield_, _Media Selector_, _Autocomplete_
 
 ### Field Formatters
 
-- Define how field values are being displayed
+- Definieren, wie Feldwerte dargestellt werden können
 
-e.g. Formatted Text, Image, Gallery, Entity Preview
+z.B. _Formatted Text_, _Image_, _Gallery_, _Entity Preview_
 
 ## Display Modes
 
-- Define how fields and properties are being displayed
+- Definieren, wie Entitäten in verschiedenen Modi dargestellt werden können
 
 ### Form Modes
 
-- Define sets of field widgets
+- Definieren Kombinationen von Feld-Widgets, d.h. Formulartypen für das
+  Erstellen/Bearbeiten von Entitäten
 
-e.g. Edit Form, Create Form
+z.B. _Edit Form_, _Create Form_
 
 ### View Modes
 
-- Define sets of field formatters
+- Definieren Kombinationen von Feld-Formatierern
 
-e.g. Full, Teaser, RSS
+z.B. _Full_, _Teaser_, _RSS_

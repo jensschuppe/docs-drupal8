@@ -1,89 +1,98 @@
-## Concept
-- Configurable database queries
-- Base table with Joins (FROM clause in SQL)
-- Semantic Grouping (Inheritance and Overrides)
+## Konzept
 
-## Fields
+- Konfigurierbare Datenbankabfragen
+- Basistabelle mit Beziehungen (`FROM` in SQL)
+- Semantische Gruppierung von Anzeigeoptionen (Vererbung/Übersteuerung), z.B.
+  für leicht unterschiedliche Ansichten
 
-- SELECT clause in SQL
-- Defined by base table data (mostly entity fields)
-- Can be added multiple times
-- Can be heavily configured for displaying
+## Felder (Fields)
 
-## Filters
+- `SELECT` in SQL
+- Definiert durch Basistabellendaten (meistens Felder an Entitäten)
+- Können mehrfach hinzugefügt werden
+- Können umfassend für die Anzeige konfiguriert werden
 
-- WHERE/HAVING clauses in SQL
-- Can be grouped and combined with AND/OR
-- Can be exposed (with specific settings)
+## Filter (Filters)
 
-## Sorting
+- `WHERE`/`HAVING` in SQL
+- Können gruppiert und kombiniert werden mit `AND`/`OR`
+- Können exponiert werden (mit spezifischen Einstellungen), z.B. für
+  Suchformulare
 
-- ORDER BY clauses in SQL
+## Sortierung (Sorts)
 
-## Relationships
+- `ORDER BY` in SQL
 
-- JOIN clauses in SQL
-- Defined by base table fields (e.g. Entity Reference, Node Author)
+## Beziehungen (Relationships)
 
-## Contextual Filters
+- `JOIN` in SQL
+- Definiert Felder in Basisdaten (oder anderen Beziehungen), z.B. _Entity Reference_, _Node Author_
 
-## Displays
+## Kontextfilter (Contextual Filters)
 
-- May have special settings
-- Serve special purposes
-- Inheritance and Overrides
+- `WHERE`/`HAVING` in SQL
+- Werden der Ansicht zur Laufzeit übergeben (meistens als URL-Parameter)
+- z.B. für hierarchische oder Glossar-Ansichten für Listen von Inhalten
 
-### Page
+## Anzeigen (Displays)
 
-- Path
-- Menu
+- Verschiedene Anzeigevarianten einer Ansicht
+- Sind von einem spezifischen Typ (z.B. Seite, Block, Anhang)
+- Haben typspezifische Einstellungsmöglichkeiten
+- Können Einstellungen von der Ansicht vererben, bzw. diese überschreiben
+
+### Seite (Page)
+
+- Pfad
+- Menüeintrag
 
 ### Block
 
-- Block Name
-- Block Category
-- Available Settings per Block Instance
+- Blockname und -Kategorie (für Administration)
+- Verfügbare Block-Instanz-Einstellungen
 
-### Attachment
+### Anhang (Attachment)
 
-- Attach to
-- Attachment Position (before, after)
-- Context Filter Inheritance
+- Können anderen Anzeigen angehängt werden (z.B. Seiten)
+- Einstellungen:
+    - Anhängen an
+    - Anhang-Position (davor, danach)
+    - Kontextfilter-Vererbung
 
 ### Feed
 
-- Path
-- Attach to (Feed Symbol)
+- Pfad
+- Anhängen an (Feed-Symbol)
 
-## Formats
+## Formate (Formats)
 
-- Unformatted List
-- HTML List
-- Table
-- Grid
+- Unformatierte Liste
+- HTML-Liste
+- Tabelle
+- Gitter
 
-## Other features
+## Andere Einstellungen
 
-- Access Restrictions (Role, Permission)
-- Header/Footer
-- No-Results Behavior
-- Pager
-- Grouping (GROUP BY clause in SQL - switch to grouping mode)
-- Other settings
+- Zugriffsbeschränkungen (Rollen-/Berechtigungsbasiert)
+- Kopf-/Fußbereich
+- Verhalten bei keinen Ergebnissen
+- Seitennavigation (Pager)
+- Gruppierung (`GROUP BY` in SQL) – Umschalten in Gruppierungsmodus
+- Weitere Einstellungen
     - Ajax
-    - Database Query Settings
-    - Cache
+    - Datenbankabfrage-Einstellungen
+    - Zwischenspeichern von Ergebnissen (Cache)
 
 ## Theming
 
-- Design Settings and configurable CSS classes
-- Templates and Template Suggestions
+- Design-Einstellungen für Felder und Anzeigen (HTML-Elementtypen und CSS-Klassen)
+- Vorlagen (Templates) und _Template Suggestions_
 
-## Module Settings
+## Moduleinstellungen
 
-- Automatic Preview
-- Master Display
-- Embed Display
-- Show SQL Query
-- Disable Cache
-- SQL Query Signature
+- Automatische Vorschau
+- _Master_-Anzeige
+- _Embed_-Anzeige
+- SQL-Abfrage azeigen
+- Cache deaktivieren
+- SQL-Abfragen-Signatur
