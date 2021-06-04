@@ -2,9 +2,10 @@ site_name: Drupal 8
 nav:
   - Einführung:
     - Versionen: introduction/index.md
+    - Drupal-Benutzeroberfläche: introduction/ui.md
     - Unterschiede Drupal 7/8:
-      - Benutzeroberfläche: introduction/ui.md
-      - Technische Aspekte: introduction/technical.md
+      - Benutzeroberfläche: introduction/d7-d8-diff/ui.md
+      - Technische Aspekte: introduction/d7-d8-diff/technical.md
   - Website-Aufbau (Site Building):
     - Benutzer (Users): site-building/users.md
     - Konfiguration: site-building/configuration.md

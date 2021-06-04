@@ -14,3 +14,7 @@
 ## Rollen
 
 - Kombinieren Berechtigungen
+
+## User 1
+
+- hat alle Berechtigungen, die nicht zurückgezogen werden können
