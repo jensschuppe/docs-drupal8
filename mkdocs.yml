@@ -7,11 +7,12 @@ nav:
       - Benutzeroberfläche: introduction/d7-d8-diff/ui.md
       - Technische Aspekte: introduction/d7-d8-diff/technical.md
   - Website-Aufbau (Site Building):
-    - Benutzer (Users): site-building/users.md
     - Konfiguration: site-building/configuration.md
+    - Benutzer (Users): site-building/users.md
     - Entitäten (Entities): site-building/entities.md
     - Blöcke (Blocks): site-building/blocks.md
     - Ansichten (Views): site-building/views.md
+    - Menüs (Menus): site-building/menus.md
     - Themes: site-building/themes.md
 
 theme:

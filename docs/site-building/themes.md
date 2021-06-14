@@ -1,3 +1,8 @@
+- Beliebig viele Themes
+- Standard-Theme zur Darstellung von Inhalten
+- Administrations-Theme für "Backend"
+- Einstellungen (abhängig vom Theme)
+
 ## Theme-Komponenten
 
 - Informationen (Name, Beschreibung)
