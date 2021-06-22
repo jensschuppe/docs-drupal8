@@ -46,6 +46,15 @@
 - Können über eine Benutzeroberfläche editiert werden
 - Können im-/exportiert werden
 
+### Spracherkennung und -auswahl
+
+- Methoden zur Spracherkennung (Browser-Sprache, Benutzereinstellung, URL,
+  Sitzung, Standardsprache)
+- Reihenfolge der Auswahl (z.B. Benutzereinstellung vor Browsersprache)
+- Ggf. Einstellungen pro Erkennungsmethode, z.B.
+    - URL: Subdomain oder Pfadpräfix
+    - benutzerdefinierte Zuordnungen für Browsersprachen
+
 ## Textformate (Text formats)
 
 - Definieren Einstellungen für die Darstellung von Textfeld-Inhalten

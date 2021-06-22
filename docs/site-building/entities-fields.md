@@ -1,3 +1,11 @@
+- lat. "seiend", "Ding"
+- strukturierte Datenobjekte (Entitäten)
+- erweiterbare Datenstruktur (Felder)
+- mit Funktionalität verknüpfbar
+- einheitliche Repräsentation (intern/extern) durch Abstraktion
+
+![Drupal 8 Modules and Entities with Fields](../img/drupal8-entities-fields.png)
+
 ## Entitäts-Kategorien
 
 ### Configuration Entities
@@ -18,18 +26,18 @@ e.g. _Node_, _User_, _Taxonomy Term_, _Custom Block_
 
 e.g. _Node_, _User_, _File_, _Media Item_
 
+## Properties
+
+- Speichern grundlegende Entitätsinformationen/-einstellungen pro Entitätstyp
+
+z.B. _ID_, _Title_, _Author_, _Language_
+
 ## Bundles
 
 - Definieren Untertypen von Inhalts-Entitätstypen
 - Manche Entitätstypen haben keins (bzw. nur ein) Bundle (z.B. _User_)
 
 z.B. _Content Types_, _Taxonomy Vocabularies_, _Block Types_
-
-## Properties
-
-- Speichern grundlegende Entitätsinformationen/-einstellungen pro Entitätstyp
-
-z.B. _ID_, _Title_, _Author_, _Language_
 
 ## Fields
 
