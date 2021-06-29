@@ -3,6 +3,10 @@
 - sinnvolle Erweiterung durch Modul _Administration Toolbar_
 - Kategorien und Menüs (z.B. _Verwaltung_, _Benutzermenü_)
 
+## Navigationsübersichten
+
+- Kategorieseiten, die keine eigenen Elemente haben
+
 ## Registerkarten (Tabs/Local Tasks)
 
 - Gruppierte Funktionen (z.B. für Entitäten)
@@ -12,10 +16,6 @@
 ## Aktionen (Local Actions)
 
 - Operationen, die für die aktuelle Ansicht relevant sind
-
-## Navigationsübersichten
-
-- Kategorieseiten, die keine eigenen Elemente haben
 
 ## Tabellen und Stapelverarbeitung
 

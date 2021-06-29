@@ -3,10 +3,8 @@ nav:
   - Einführung:
     - Versionen: introduction/versions.md
     - Drupal-Benutzeroberfläche: introduction/ui.md
-    - Unterschiede Drupal 7/8:
-      - Benutzeroberfläche: introduction/d7-d8-diff/ui.md
-      - Technische Aspekte: introduction/d7-d8-diff/technical.md
   - Website-Aufbau (Site Building):
+    - Module: site-building/modules.md
     - Konfiguration: site-building/configuration.md
     - Entitäten und Felder (Entities, Fields): site-building/entities-fields.md
     - Benutzer (Users): site-building/users.md
@@ -14,6 +12,10 @@ nav:
     - Ansichten (Views): site-building/views.md
     - Menüs (Menus): site-building/menus.md
     - Themes: site-building/themes.md
+    - Sonstiges: site-building/misc.md
+  - Unterschiede Drupal 7/8:
+    - Benutzeroberfläche: d7-d8-diff/ui.md
+    - Technische Aspekte: d7-d8-diff/technical.md
 
 theme:
   name: material
