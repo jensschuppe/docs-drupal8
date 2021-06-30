@@ -1,5 +1,6 @@
 site_name: Drupal 8
 nav:
+  - Home: index.md
   - Einführung:
     - Versionen: introduction/versions.md
     - Drupal-Benutzeroberfläche: introduction/ui.md
